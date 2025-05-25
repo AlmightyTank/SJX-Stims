@@ -1,0 +1,92 @@
+{
+  "cloneOrigin": "5c0e534186f7747fa1419867",
+  "id": "68336d708e51c90780988824",
+  "fleaPrice": 72000,
+  "handBookPrice": 68000,
+  "includeInSameQuestsAsOrigin": false,
+  "addSpawnsInSamePlacesAsOrigin": true,
+  "spawnWeightComparedToOrigin": 1,
+  "MaxResource": 2,
+  "BackgroundColor": "red",
+  "effects_health": {
+    "Energy": { "value": -25 }
+  },
+  "effects_damage": {},
+  "Buffs": [
+    {
+      "AbsoluteValue": false,
+      "BuffType": "HealthRegenRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 600,
+      "SkillName": "",
+      "Value": 3.0
+    },
+    {
+      "AbsoluteValue": false,
+      "BuffType": "PainKiller",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 120,
+      "SkillName": "",
+      "Value": 1
+    }
+  ],
+  "locales": {
+    "en": {
+      "name": "RegenX-7",
+      "shortName": "RegenX-7",
+      "description": "High-end regenerative stim with strong health regen and painkiller effect, trading off significant energy drain."
+    }
+  },
+  "trader": {
+    "traderId": "54cb57776803fa99248b456e",
+    "loyaltyReq": 4,
+    "price": 70000,
+    "amountForSale": 4
+  },
+  "craft": {
+    "_id": "68336d78200f2d304f199bf2",
+    "areaType": 7,
+    "requirements": [
+      {
+        "areaType": 7,
+        "requiredLevel": 3,
+        "type": "Area"
+      },
+      {
+        "templateId": "5d1b39a386f774252339976f",
+        "type": "Tool"
+      },
+      {
+        "templateId": "5c0e534186f7747fa1419867",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "590c657e86f77412b013051d",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "59e35abd86f7741778269d82",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      }
+    ],
+    "productionTime": 1400,
+    "needFuelForAllProductionTime": false,
+    "locked": false,
+    "endProduct": "68336d708e51c90780988824",
+    "continuous": false,
+    "count": 1,
+    "productionLimitCount": 0,
+    "isEncoded": false
+  }
+}

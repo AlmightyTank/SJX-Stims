@@ -1,0 +1,98 @@
+{
+  "cloneOrigin": "5c0e533786f7747fa23f4d47",
+  "id": "68336e67abd18e611ecbf182",
+  "fleaPrice": 50000,
+  "handBookPrice": 45000,
+  "includeInSameQuestsAsOrigin": false,
+  "addSpawnsInSamePlacesAsOrigin": true,
+  "spawnWeightComparedToOrigin": 1,
+  "MaxResource": 2,
+  "BackgroundColor": "red",
+  "effects_health": {
+    "Hydration": { "value": -15 }
+  },
+  "effects_damage": {
+    "Pain": {
+      "delay": 0,
+      "duration": 60,
+      "fadeOut": 15
+    }
+  },
+  "Buffs": [
+    {
+      "AbsoluteValue": true,
+      "BuffType": "StopBleeding",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 240,
+      "SkillName": "",
+      "Value": 1
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "PainKiller",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 60,
+      "SkillName": "",
+      "Value": 1
+    }
+  ],
+  "locales": {
+    "en": {
+      "name": "Zagustin Plus",
+      "shortName": "Zagustin+",
+      "description": "Enhanced emergency bleed suppressor with faster activation and extended prevention of new bleeds. Includes a painkiller effect and light hydration penalty. Ideal for high-risk PvP and rogue encounters."
+    }
+  },
+  "trader": {
+    "traderId": "54cb57776803fa99248b456e",
+    "loyaltyReq": 3,
+    "price": 45000,
+    "amountForSale": 6
+  },
+  "craft": {
+    "_id": "68336e608d9ea89340baeea4",
+    "areaType": 7,
+    "requirements": [
+      {
+        "areaType": 7,
+        "requiredLevel": 2,
+        "type": "Area"
+      },
+      {
+        "templateId": "5d1b39a386f774252339976f",
+        "type": "Tool"
+      },
+      {
+        "templateId": "5c0e533786f7747fa23f4d47",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "544fb6cc4bdc2d34748b456e",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "60b0f93284c20f0feb453da7",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      }
+    ],
+    "productionTime": 1200,
+    "needFuelForAllProductionTime": false,
+    "locked": false,
+    "endProduct": "68336e67abd18e611ecbf182",
+    "continuous": false,
+    "count": 1,
+    "productionLimitCount": 0,
+    "isEncoded": false
+  }
+}

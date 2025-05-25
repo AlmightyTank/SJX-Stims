@@ -1,0 +1,114 @@
+{
+  "cloneOrigin": "5c0e530286f7747fa1419862",
+  "id": "5ed515e03a40a50460332579",
+  "fleaPrice": 28000,
+  "handBookPrice": 22000,
+  "includeInSameQuestsAsOrigin": false,
+  "addSpawnsInSamePlacesAsOrigin": true,
+  "spawnWeightComparedToOrigin": 1,
+  "MaxResource": 2,
+  "BackgroundColor": "red",
+  "effects_health": {},
+  "effects_damage": {
+    "Pain": {
+      "delay": 0,
+      "duration": 180,
+      "fadeOut": 10
+    }
+  },
+  "Buffs": [
+    {
+      "AbsoluteValue": false,
+      "BuffType": "StaminaRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 600,
+      "SkillName": "",
+      "Value": 0.25
+    },
+    {
+			"BuffType": "DamageModifier",
+			"Chance": 1,
+			"Delay": 1,
+			"Duration": 600,
+			"Value": -0.1,
+			"AbsoluteValue": false,
+			"SkillName": ""
+		},
+    {
+      "AbsoluteValue": false,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 600,
+      "SkillName": "Endurance",
+      "Value": 0.2
+    },
+    {
+      "AbsoluteValue": false,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 600,
+      "SkillName": "Strength",
+      "Value": 0.2
+    }
+  ],
+  "locales": {
+    "en": {
+      "name": "L1-Sprint",
+      "shortName": "L1-Sprint",
+      "description": "Lightweight stim boosting sprint duration by 60% and endurance XP rate by 20%. Includes minor painkiller effect and slight increase in movement noise."
+    }
+  },
+  "trader": {
+    "traderId": "54cb57776803fa99248b456e",
+    "loyaltyReq": 2,
+    "price": 20000,
+    "amountForSale": 7
+  },
+  "craft": {
+    "_id": "683333330000000000000006",
+    "areaType": 7,
+    "requirements": [
+      {
+        "areaType": 7,
+        "requiredLevel": 2,
+        "type": "Area"
+      },
+      {
+        "templateId": "5d1b39a386f774252339976f",
+        "type": "Tool"
+      },
+      {
+        "templateId": "5ed515e03a40a50460332579",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "5751435d24597720a27126d1",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "62a0a043cf4a99369e2624a5",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      }
+    ],
+    "productionTime": 900,
+    "needFuelForAllProductionTime": false,
+    "locked": false,
+    "endProduct": "68336f39a2751a78de89c21b",
+    "continuous": false,
+    "count": 1,
+    "productionLimitCount": 0,
+    "isEncoded": false
+  }
+}

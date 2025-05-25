@@ -1,0 +1,130 @@
+{
+  "cloneOrigin": "5ed5166ad380ab312177c100",
+  "id": "68336a67ce152b72dc40abf6",
+  "fleaPrice": 60000,
+  "handBookPrice": 55000,
+  "includeInSameQuestsAsOrigin": false,
+  "addSpawnsInSamePlacesAsOrigin": true,
+  "spawnWeightComparedToOrigin": 1,
+  "MaxResource": 2,
+  "BackgroundColor": "red",
+  "effects_health": {
+    "Hydration": { "value": -15 },
+    "Energy": { "value": -15 }
+  },
+  "Buffs": [
+    {
+      "AbsoluteValue": false,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 600,
+      "SkillName": "Strength",
+      "Value": 0.2
+    },
+    {
+			"AbsoluteValue": true,
+			"BuffType": "HandsTremor",
+			"Chance": 0.2,
+			"Delay": 0,
+			"Duration": 120,
+			"SkillName": "",
+			"Value": 0
+		},
+    {
+      "AbsoluteValue": false,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 600,
+      "SkillName": "Endurance",
+      "Value": 0.2
+    },
+    {
+      "AbsoluteValue": false,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 600,
+      "SkillName": "Perception",
+      "Value": 0.2
+    },
+    {
+      "AbsoluteValue": false,
+      "BuffType": "StaminaRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 600,
+      "SkillName": "",
+      "Value": 0.2
+    },
+    {
+			"BuffType": "WeightLimit",
+			"Chance": 1,
+			"Delay": 1,
+			"Duration": 600,
+			"Value": 0.2,
+			"AbsoluteValue": false,
+			"SkillName": ""
+		},
+    {
+      "AbsoluteValue": true,
+      "BuffType": "FractureChance",
+      "Chance": 0.1,
+      "Delay": 300,
+      "Duration": 0,
+      "SkillName": "",
+      "Value": 1
+    }
+  ],
+  "locales": {
+    "en": {
+      "name": "Obdolbos Plus",
+      "shortName": "Obdolbos+",
+      "description": "Madman's stim boosting strength, endurance, and perception XP plus stamina regen and carry weight. Comes with 10% chance to fracture limbs after 5 minutes and tremor effect for 2 minutes."
+    }
+  },
+  "trader": {
+    "traderId": "54cb57776803fa99248b456e",
+    "loyaltyReq": 4,
+    "price": 60000,
+    "amountForSale": 4
+  },
+  "craft": {
+    "_id": "68336a738c017fc783a45c2e",
+    "areaType": 7,
+    "requirements": [
+      {
+        "areaType": 7,
+        "requiredLevel": 3,
+        "type": "Area"
+      },
+      {
+        "templateId": "5d1b39a386f774252339976f",
+        "type": "Tool"
+      },
+      {
+        "templateId": "5ed5166ad380ab312177c100",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "5751435d24597720a27126d1",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      }
+    ],
+    "productionTime": 1800,
+    "needFuelForAllProductionTime": false,
+    "locked": false,
+    "endProduct": "68336a67ce152b72dc40abf6",
+    "continuous": false,
+    "count": 1,
+    "productionLimitCount": 0,
+    "isEncoded": false
+  }
+}

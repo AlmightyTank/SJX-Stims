@@ -1,0 +1,86 @@
+{
+  "cloneOrigin": "5ed51652f6c34d2cc26336a1",
+  "id": "68336b8fb68adf25e7314cc3",
+  "fleaPrice": 155000,
+  "handBookPrice": 150000,
+  "includeInSameQuestsAsOrigin": false,
+  "addSpawnsInSamePlacesAsOrigin": true,
+  "spawnWeightComparedToOrigin": 1,
+  "MaxResource": 2,
+  "BackgroundColor": "red",
+  "effects_health": {
+    "Hydration": { "value": -30 },
+    "Energy": { "value": -30 }
+  },
+  "effects_damage": {},
+  "Buffs": [
+		{
+			"BuffType": "WeightLimit",
+			"Chance": 1,
+			"Delay": 1,
+			"Duration": 600,
+			"Value": 0.75,
+			"AbsoluteValue": false,
+			"SkillName": ""
+		},
+    {
+      "AbsoluteValue": false,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 600,
+      "SkillName": "Strength",
+      "Value": 0.15
+    }
+  ],
+  "locales": {
+    "en": {
+      "name": "M.U.L.E. Plus",
+      "shortName": "M.U.L.E.+",
+      "description": "Endurance and carry weight stim with balanced hydration and energy penalties. Great for loot runs and solo raids."
+    }
+  },
+  "trader": {
+    "traderId": "54cb57776803fa99248b456e",
+    "loyaltyReq": 3,
+    "price": 98000,
+    "amountForSale": 6
+  },
+  "craft": {
+    "_id": "68336ba2ba5e98c4956cbb8c",
+    "areaType": 7,
+    "requirements": [
+      {
+        "areaType": 7,
+        "requiredLevel": 3,
+        "type": "Area"
+      },
+      {
+        "templateId": "5d1b39a386f774252339976f",
+        "type": "Tool"
+      },
+      {
+        "templateId": "5ed51652f6c34d2cc26336a1",
+        "count": 1,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "59e35abd86f7741778269d82",
+        "count": 2,
+        "isFunctional": false,
+        "isEncoded": false,
+        "type": "Item"
+      }
+    ],
+    "productionTime": 1500,
+    "needFuelForAllProductionTime": false,
+    "locked": false,
+    "endProduct": "68336b8fb68adf25e7314cc3",
+    "continuous": false,
+    "count": 1,
+    "productionLimitCount": 0,
+    "isEncoded": false
+  }
+}
