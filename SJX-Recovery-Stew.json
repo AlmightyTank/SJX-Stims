@@ -3,7 +3,7 @@
 	"id": "68335f3df9504122f87afc82",
 	"fleaPrice": 90000,
 	"handBookPrice": 55000,
-	"includeInSameQuestsAsOrigin": true,
+	"includeInSameQuestsAsOrigin": false,
 	"addSpawnsInSamePlacesAsOrigin": true,
 	"spawnWeightComparedToOrigin": 0.1,
 	"BackgroundColor": "blue",
