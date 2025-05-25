@@ -1,0 +1,78 @@
+{
+	"cloneOrigin": "57347da92459774491567cf5",
+	"id": "68335f3df9504122f87afc82",
+	"fleaPrice": 90000,
+	"handBookPrice": 55000,
+	"includeInSameQuestsAsOrigin": true,
+	"addSpawnsInSamePlacesAsOrigin": true,
+	"spawnWeightComparedToOrigin": 0.1,
+	"BackgroundColor": "blue",
+	"effects_health": {
+        "Hydration": {
+          "value": 40
+        },
+		"Energy": {
+			"value": 50
+		}
+    },
+	"effects_damage": {
+		"Pain": {
+		"delay": 0,
+		"duration": 300,
+		"fadeOut": 30
+		}
+	},
+	"Buffs": [
+		{
+			"BuffType": "RemoveAllBloodLosses",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 300,
+			"Value": 0,
+			"AbsoluteValue": true,
+			"SkillName": ""
+		}
+	],
+	"locales": {
+		"en": {
+			"name": "SJX-Recovery Stew",
+			"shortName": "Recovery Stew",
+			"description": "Combat medics brew this nutrient-rich stew from preserved ingredients and anti-inflammatory boosters."
+		}
+	},
+
+	"craft": {
+		"_id": "68335f3927667f8bf10b5dfa",
+		"areaType": 8,
+		"requirements": [
+			{
+				"areaType": 8,
+				"requiredLevel": 1,
+				"type": "Area"
+			},
+			{
+				"templateId": "57347b8b24597737dd42e192",
+				"type": "Tool"
+			},
+			{
+				"templateId": "5d1b36a186f7742523398433",
+				"type": "Tool"
+			},
+			{
+				"templateId": "57347da92459774491567cf5",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			}
+		],
+		"productionTime": 7200,
+		"needFuelForAllProductionTime": false,
+		"locked": false,
+		"endProduct": "68335f3df9504122f87afc82",
+		"continuous": false,
+		"count": 1,
+		"productionLimitCount": 0,
+		"isEncoded": false
+	}
+}

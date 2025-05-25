@@ -1,0 +1,95 @@
+{
+	"cloneOrigin": "590c5f0d86f77413997acfab",
+	"id": "68335d1701c658962cfd4324",
+	"fleaPrice": 60000,
+	"handBookPrice": 35000,
+	"includeInSameQuestsAsOrigin": true,
+	"addSpawnsInSamePlacesAsOrigin": true,
+	"spawnWeightComparedToOrigin": 0.1,
+	"BackgroundColor": "blue",
+	"effects_health": {
+        "Hydration": {
+          "value": -10
+        },
+		"Energy": {
+			"value": 55
+		}
+    },
+	"Buffs": [
+		{
+			"AbsoluteValue": true,
+			"BuffType": "SkillRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 300,
+			"SkillName": "Endurance",
+			"Value": 15
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "SkillRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 300,
+			"SkillName": "Strength",
+			"Value": 15
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "EnergyRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 300,
+			"SkillName": "",
+			"Value": 0.40
+		}
+	],
+	"locales": {
+		"en": {
+			"name": "SJX-Ration Bar",
+			"shortName": "Ration Bar",
+			"description": "High-energy survival bar infused with military-grade metabolism enhancers. Commonly issued to PMCs for prolonged engagements."
+		}
+	},
+
+	"craft": {
+		"_id": "68335d1ee761fa2cab25fd4a",
+		"areaType": 8,
+		"requirements": [
+			{
+				"areaType": 8,
+				"requiredLevel": 1,
+				"type": "Area"
+			},
+			{
+				"templateId": "57505f6224597709a92585a9",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},			
+			{
+				"templateId": "590c5f0d86f77413997acfab",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},			
+			{
+				"templateId": "62a0a043cf4a99369e2624a5",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			}
+		],
+		"productionTime": 4200,
+		"needFuelForAllProductionTime": false,
+		"locked": false,
+		"endProduct": "68335d1701c658962cfd4324",
+		"continuous": false,
+		"count": 2,
+		"productionLimitCount": 0,
+		"isEncoded": false
+	}
+}

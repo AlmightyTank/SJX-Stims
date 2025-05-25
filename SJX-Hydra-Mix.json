@@ -1,0 +1,110 @@
+{
+	"cloneOrigin": "60098b1705871270cd5352a1",
+	"id": "683361256ef8a3ee9b04d226",
+	"fleaPrice": 70000,
+	"handBookPrice": 75000,
+	"includeInSameQuestsAsOrigin": false,
+	"addSpawnsInSamePlacesAsOrigin": true,
+	"spawnWeightComparedToOrigin": 0.4,
+	"MaxResource": 1,
+	"hpResourceRate": 0,
+	"BackgroundColor": "blue",
+	"effects_damage": {
+	},
+	"effects_health": {
+        "Hydration": {
+          "value": 60
+        },
+		"Energy": {
+			"value": 10
+		}
+    },
+	"Buffs": [
+		{
+			"AbsoluteValue": true,
+			"BuffType": "HydrationRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 600,
+			"SkillName": "",
+			"Value": 0.1
+		  },
+		  {
+			"AbsoluteValue": true,
+			"BuffType": "EnergyRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 10,
+			"SkillName": "",
+			"Value": 2
+		  },
+		  {
+			"AbsoluteValue": true,
+			"BuffType": "MaxStamina",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 600,
+			"SkillName": "",
+			"Value": 25
+		  }
+	],
+	"locales": {
+		"en": {
+			"name": "SJX-Hydra Mix",
+			"shortName": "Hydra Mix",
+			"description": "A stimulant-infused hydration cocktail meant for field recovery. Offers quick hydration with minor side boosts."
+		}
+	},
+
+	"trader": {
+		"traderId": "5c0647fdd443bc2504c2d371",
+		"loyaltyReq": 2,
+		"price": 42000,
+		"amountForSale": 12
+	},
+
+	"craft": {
+		"_id": "6833612c3eb875b24d106609",
+		"areaType": 8,
+		"requirements": [
+			{
+				"areaType": 8,
+				"requiredLevel": 2,
+				"type": "Area"
+			},
+			{
+				"templateId": "5d1b39a386f774252339976f",
+				"type": "Tool"
+			},
+			{
+				"templateId": "5448fee04bdc2dbc018b4567",
+				"count": 2,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "57514643245977207f2c2d09",
+				"count": 2,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "544fb3f34bdc2d03748b456a",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			}
+		],
+		"productionTime": 3600,
+		"needFuelForAllProductionTime": false,
+		"locked": false,
+		"endProduct": "683361256ef8a3ee9b04d226",
+		"continuous": false,
+		"count": 9,
+		"productionLimitCount": 0,
+		"isEncoded": false
+	}
+}
