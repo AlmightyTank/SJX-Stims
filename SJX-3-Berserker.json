@@ -1,0 +1,123 @@
+{
+	"cloneOrigin": "5ed515f6915ec335206e4152",
+	"id": "68331fef74231628e6e63f25",
+	"fleaPrice": 185000,
+	"handBookPrice": 195000,
+	"includeInSameQuestsAsOrigin": false,
+	"addSpawnsInSamePlacesAsOrigin": true,
+	"spawnWeightComparedToOrigin": 0.5,
+	"effects_damage": {
+		"Pain": {
+		"delay": 0,
+		"duration": 180,
+		"fadeOut": 30
+		}
+	},
+	"Buffs": [
+		{
+			"AbsoluteValue": true,
+			"BuffType": "SkillRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 180,
+			"SkillName": "Strength",
+			"Value": 20
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "MaxStamina",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 180,
+			"SkillName": "",
+			"Value": 10
+		},
+		{
+			"BuffType": "HandsTremor",
+			"Chance": 1,
+			"Delay": 180,
+			"Duration": 180,
+			"Value": 0,
+			"AbsoluteValue": true,
+			"SkillName": ""
+		},
+		{
+			"BuffType": "EnergyRate",
+			"Chance": 1,
+			"Delay": 100,
+			"Duration": 180,
+			"Value": -0.5,
+			"AbsoluteValue": true,
+			"SkillName": ""
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "HydrationRate",
+			"Chance": 1,
+			"Delay": 80,
+			"Duration": 180,
+			"SkillName": "",
+			"Value": -0.5
+		}
+	],
+	"locales": {
+		"en": {
+			"name": "SJX-3 Berserker Injector",
+			"shortName": "SJX-3",
+			"description": "An unregulated stimulant blend based loosely on AHF1 and Obdolbos. Delivers raw physical power at the cost of fine motor control."
+		}
+	},
+	"trader": {
+		"traderId": "54cb57776803fa99248b456e",
+		"loyaltyReq": 3,
+		"price": 120000,
+		"amountForSale": 10
+	},
+	"craft": {
+		"_id": "68331ffb79b57b285cf506ad",
+		"areaType": 7,
+		"requirements": [
+			{
+				"areaType": 7,
+				"requiredLevel": 3,
+				"type": "Area"
+			},
+			{
+				"templateId": "5ed515f6915ec335206e4152",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "5ed5166ad380ab312177c100",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "5c10c8fd86f7743d7d706df3",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "5d40407c86f774318526545a",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			}
+		],
+		"productionTime": 14400,
+		"needFuelForAllProductionTime": false,
+		"locked": false,
+		"endProduct": "68331fef74231628e6e63f25",
+		"continuous": false,
+		"count": 1,
+		"productionLimitCount": 0,
+		"isEncoded": false
+	}
+}

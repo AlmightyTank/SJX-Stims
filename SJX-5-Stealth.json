@@ -1,0 +1,107 @@
+{
+	"cloneOrigin": "5fca13ca637ee0341a484f46",
+	"id": "6833259d5bbfac390bc044cf",
+	"fleaPrice": 145000,
+	"handBookPrice": 155000,
+	"includeInSameQuestsAsOrigin": false,
+	"addSpawnsInSamePlacesAsOrigin": true,
+	"spawnWeightComparedToOrigin": 0.5,
+	"Buffs": [
+		{
+			"BuffType": "BodyTemperature",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 600,
+			"Value": -4,
+			"AbsoluteValue": true,
+			"SkillName": ""
+		},
+		{
+			"BuffType": "BodyTemperature",
+			"Chance": 1,
+			"Delay": 600,
+			"Duration": 300,
+			"Value": 6,
+			"AbsoluteValue": true,
+			"SkillName": ""
+		},
+		{
+			"BuffType": "EnergyRate",
+			"Chance": 1,
+			"Delay": 30,
+			"Duration": 600,
+			"Value": -0.05,
+			"AbsoluteValue": true,
+			"SkillName": ""
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "HydrationRate",
+			"Chance": 1,
+			"Delay": 30,
+			"Duration": 600,
+			"SkillName": "",
+			"Value": -0.05
+		}
+	],
+	"locales": {
+		"en": {
+			"name": "SJX-5 Stealth Injector",
+			"shortName": "SJX-5",
+			"description": "Synthesized from SJ9 base materials and purified suppressants, this stim helps reduce IR signature and metabolic noise."
+		}
+	},
+	"trader": {
+		"traderId": "54cb57776803fa99248b456e",
+		"loyaltyReq": 3,
+		"price": 90000,
+		"amountForSale": 10
+	},
+	"craft": {
+		"_id": "683325a919780501ecd0f4c5",
+		"areaType": 7,
+		"requirements": [
+			{
+				"areaType": 7,
+				"requiredLevel": 3,
+				"type": "Area"
+			},
+			{
+				"templateId": "5fca13ca637ee0341a484f46",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "5af0548586f7743a532b7e99",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "5448fee04bdc2dbc018b4567",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "5e2af02c86f7746d420957d4",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			}
+		],
+		"productionTime": 16200,
+		"needFuelForAllProductionTime": false,
+		"locked": false,
+		"endProduct": "6833259d5bbfac390bc044cf",
+		"continuous": false,
+		"count": 1,
+		"productionLimitCount": 0,
+		"isEncoded": false
+	}
+}

@@ -1,0 +1,116 @@
+{
+	"cloneOrigin": "5ed515c8d380ab312177c0fa",
+	"id": "6833237c8ac71af4b28cbe84",
+	"fleaPrice": 210000,
+	"handBookPrice": 220000,
+	"includeInSameQuestsAsOrigin": false,
+	"addSpawnsInSamePlacesAsOrigin": true,
+	"spawnWeightComparedToOrigin": 0.5,
+	"Buffs": [
+		{
+			"AbsoluteValue": true,
+			"BuffType": "HealthRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 300,
+			"SkillName": "",
+			"Value": 0.5
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "SkillRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 300,
+			"SkillName": "Health",
+			"Value": 30
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "SkillRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 300,
+			"SkillName": "Vitality",
+			"Value": 30
+		},
+		{
+			"BuffType": "StaminaRate",
+			"Chance": 1,
+			"Delay": 1,
+			"Duration": 300,
+			"Value": -0.8,
+			"AbsoluteValue": true,
+			"SkillName": ""
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "SkillRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 300,
+			"SkillName": "Endurance",
+			"Value": -10
+		}
+	],
+	"locales": {
+		"en": {
+			"name": "SJX-4 Fortifier Injector",
+			"shortName": "SJX-4",
+			"description": "A carefully dosed combination of Propital and 3-(b-TG), tailored to improve combat survivability and wound resistance."
+		}
+	},
+	"trader": {
+		"traderId": "54cb57776803fa99248b456e",
+		"loyaltyReq": 3,
+		"price": 135000,
+		"amountForSale": 10
+	},
+	"craft": {
+		"_id": "6833238502c4bc79855d14bd",
+		"areaType": 7,
+		"requirements": [
+			{
+				"areaType": 7,
+				"requiredLevel": 3,
+				"type": "Area"
+			},
+			{
+				"templateId": "5c0e530286f7747fa1419862",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "5ed515c8d380ab312177c0fa",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "590c695186f7741e566b64a2",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "59e3606886f77417674759a5",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			}
+		],
+		"productionTime": 18000,
+		"needFuelForAllProductionTime": false,
+		"locked": false,
+		"endProduct": "6833237c8ac71af4b28cbe84",
+		"continuous": false,
+		"count": 1,
+		"productionLimitCount": 0,
+		"isEncoded": false
+	}
+}

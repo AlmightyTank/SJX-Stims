@@ -1,0 +1,116 @@
+{
+	"cloneOrigin": "5ed5160a87bb8443d10680b5",
+	"id": "68331d7a8f97a4202729e883",
+	"fleaPrice": 120000,
+	"handBookPrice": 130000,
+	"includeInSameQuestsAsOrigin": false,
+	"addSpawnsInSamePlacesAsOrigin": true,
+	"spawnWeightComparedToOrigin": 0.5,
+	"Buffs": [
+		{
+			"AbsoluteValue": true,
+			"BuffType": "SkillRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 240,
+			"SkillName": "Strength",
+			"Value": 10
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "SkillRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 240,
+			"SkillName": "Perception",
+			"Value": 30
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "SkillRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 240,
+			"SkillName": "Attention",
+			"Value": 30
+		},
+		{
+			"BuffType": "EnergyRate",
+			"Chance": 1,
+			"Delay": 30,
+			"Duration": 240,
+			"Value": -0.25,
+			"AbsoluteValue": true,
+			"SkillName": ""
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "HydrationRate",
+			"Chance": 1,
+			"Delay": 30,
+			"Duration": 240,
+			"SkillName": "",
+			"Value": -0.25
+		}
+	],
+	"locales": {
+		"en": {
+			"name": "SJX-2 Sharpshooter Injector",
+			"shortName": "SJX-2",
+			"description": "Combines components of Meldonin and L1 to enhance sensory clarity and focus. Popular among smugglers operating in low-light zones."
+		}
+	},
+	"trader": {
+		"traderId": "54cb57776803fa99248b456e",
+		"loyaltyReq": 2,
+		"price": 75000,
+		"amountForSale": 10
+	},
+	"craft": {
+		"_id": "68331d8862ba85fa5f3c06ee",
+		"areaType": 7,
+		"requirements": [
+			{
+				"areaType": 7,
+				"requiredLevel": 2,
+				"type": "Area"
+			},
+			{
+				"templateId": "5ed5160a87bb8443d10680b5",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "5ed515e03a40a50460332579",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "5c0fa877d174af02a012e1cf",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "59e3577886f774176a362503",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			}
+		],
+		"productionTime": 11000,
+		"needFuelForAllProductionTime": false,
+		"locked": false,
+		"endProduct": "68331d7a8f97a4202729e883",
+		"continuous": false,
+		"count": 2,
+		"productionLimitCount": 0,
+		"isEncoded": false
+	}
+}

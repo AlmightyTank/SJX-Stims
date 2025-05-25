@@ -1,0 +1,109 @@
+{
+	"cloneOrigin": "5c0e531d86f7747fa23f4d42",
+	"id": "68331b17cccc72d0db1f764b",
+	"fleaPrice": 100000,
+	"handBookPrice": 110000,
+	"includeInSameQuestsAsOrigin": false,
+	"addSpawnsInSamePlacesAsOrigin": true,
+	"spawnWeightComparedToOrigin": 0.5,
+	"Buffs": [
+		{
+			"AbsoluteValue": true,
+			"BuffType": "SkillRate",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 240,
+			"SkillName": "Endurance",
+			"Value": 20
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "MaxStamina",
+			"Chance": 1,
+			"Delay": 0,
+			"Duration": 240,
+			"SkillName": "",
+			"Value": 30
+		},
+		{
+			"BuffType": "StaminaRate",
+			"Chance": 1,
+			"Delay": 1,
+			"Duration": 240,
+			"Value": 2,
+			"AbsoluteValue": true,
+			"SkillName": ""
+		},
+		{
+			"BuffType": "EnergyRate",
+			"Chance": 1,
+			"Delay": 30,
+			"Duration": 240,
+			"Value": -0.3,
+			"AbsoluteValue": true,
+			"SkillName": ""
+		},
+		{
+			"AbsoluteValue": true,
+			"BuffType": "HydrationRate",
+			"Chance": 1,
+			"Delay": 30,
+			"Duration": 240,
+			"SkillName": "",
+			"Value": -0.3
+		}
+	],
+	"locales": {
+		"en": {
+			"name": "SJX-1 Sprinter Injector",
+			"shortName": "SJX-1",
+			"description": "A mix of SJ6 and Meldonin derivatives designed for extended burst movement. Originally synthesized to aid medics in navigating hot zones quickly."
+		}
+	},
+	"trader": {
+		"traderId": "54cb57776803fa99248b456e",
+		"loyaltyReq": 2,
+		"price": 65000,
+		"amountForSale": 10
+	},
+	"craft": {
+		"_id": "68331b2213dc72b709a72d59",
+		"areaType": 7,
+		"requirements": [
+			{
+				"areaType": 7,
+				"requiredLevel": 2,
+				"type": "Area"
+			},
+			{
+				"templateId": "5c0e531d86f7747fa23f4d42",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "544fb45d4bdc2dee738b4568",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			},
+			{
+				"templateId": "59e35abd86f7741778269d82",
+				"count": 1,
+				"isFunctional": false,
+				"isEncoded": false,
+				"type": "Item"
+			}
+		],
+		"productionTime": 9000,
+		"needFuelForAllProductionTime": false,
+		"locked": false,
+		"endProduct": "68331b17cccc72d0db1f764b",
+		"continuous": false,
+		"count": 2,
+		"productionLimitCount": 0,
+		"isEncoded": false
+	}
+}
