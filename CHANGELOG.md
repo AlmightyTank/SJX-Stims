@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.0.0
+## v1.0.2
 
 **Now a Consumables Galore addon mod** - SJX-Stims is no longer a set of loose `.json`
 files dropped into Consumables Galore's own `items/` folder. It's now its own compiled

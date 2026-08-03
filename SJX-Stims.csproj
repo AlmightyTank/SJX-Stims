@@ -7,7 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Library</OutputType>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <!-- Produces a single, clean mod folder: bin\Release\SJX-Stims\ -->
     <OutputPath>bin\$(Configuration)\SJX-Stims\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
