@@ -1,5 +1,34 @@
-# .NET build artifacts
-bin/
-obj/
-*.user
-/.vs
+AdrenalinePlus.json
+Antidote.json
+Boar.json
+Cheeta.json
+ChoccyMilkThermos.json
+CookedTushonkaL.json
+CookedTushonkaS.json
+EHETS.json
+Elephant.json
+Gepard.json
+Glucose.json
+Hercules.json
+Meldonin v13.5.json
+MilkThermos.json
+MultivitaminDrink.json
+Obdolbos v13.json
+PotassiumIodide.json
+PropitalPlus.json
+Rebirth.json
+REGEN.json
+SalNRG.json
+SJ6Plus.json
+Vinca.json
+Yadulin.json
+SJX Stims-3.11-1.0.0.zip
+AdrenalineSurge.json
+AHF1-MPlus.json
+L1-Sprint.json
+M.U.L.E.Plus.json
+ObdolbosPlus.json
+PNBPlus.json
+RegenX-7.json
+ZagustinPlus.json
+SJX Elite Stims-3.11-1.0.0.zip
